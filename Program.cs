@@ -6,6 +6,9 @@ class Solution
 {
     static void Main(string[] args)
     {
+        // the purpose of this program is to take a set of pseudo-random characters and 
+        // "shake things up" such that what was provided from the source web site is more unique and unknown.
+        // this will be important for passwords that need to be secure.
         //https://passwordsgenerator.net/
         //length = 50, quantity = 10, valid chars: #$%^&
         //join all strings together, and paste below to get new PW
@@ -29,7 +32,7 @@ class Solution
         {
             newPW = string.Empty;
             var byteArray = RandomNumberGenerator.GetBytes(s.Length);
-            for (int i = 0; i <= (LengthNewPW); i++)
+            for (int i = 0; i <= (LengthNewPW-1); i++)
             {
                 int Current = byteArray[i];
                 newPW += s.Substring(Current, 1);
