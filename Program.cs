@@ -16,7 +16,7 @@ class Solution
         byte[] iterations = RandomNumberGenerator.GetBytes(1);
         int iteration = iterations[0];
         string Rtn = oS.GetNewStr(s, 50, iteration);
-        //set breakpoint below to see contents to Rtn
+        //set breakpoint below to see contents of Rtn
         Console.ReadKey();
     }
 
