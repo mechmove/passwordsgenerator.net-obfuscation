@@ -1,1 +1,1 @@
-This small program is to "scramble" passwords are that available from web sites to ensure you are most likely the only one with that password. You should change the input "s" in public string Shuffle(int cuts, string s) to something unique.
+This small program is to "scramble" passwords are that available from web sites to ensure you are most likely the only one with that password. You should change the input "s" in Shuffle(int cuts, string s) to something unique.
